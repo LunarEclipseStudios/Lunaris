@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [["book"], ["clock"]],
+  "result": {
+    "id": "minecraft:written_book",
+    "components": {
+      "minecraft:item_name": "{\"text\": \"☽ ʟᴜɴᴀʀɪꜱ ᴄᴀʟᴇɴᴅᴀʀ\",\"italic\": false}",
+      "minecraft:custom_data": {
+        "lunaris_calendar": true
+      }
+    },
+    "count": 1
+  }
+}

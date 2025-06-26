@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_data": {
+                  "lunaris_calendar": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "☽ ʟᴜɴᴀʀɪꜱ ᴄᴀʟᴇɴᴅᴀʀ",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "raw": [
+                    "ᴛᴏᴅᴀʏ'ꜱ ᴅᴀᴛᴇ:\n",
+                    {
+                      "nbt": "current_month",
+                      "storage": "lunareclipse.lunaris"
+                    },
+                    {
+                      "score": {
+                        "objective": "lunaris.day",
+                        "name": "day_in_month"
+                      }
+                    },
+                    ", cycle ",
+                    {
+                      "score": {
+                        "objective": "lunaris.day",
+                        "name": "current_cycle"
+                      }
+                    },
+                    "\n\n",
+                    "Each month is 8 days long, based on the cycle of the moon.",
+                    "\n\n",
+                    "Every month has it's own omen. Omens can bring good fortune or cautionary tales, and each is unique to its month. Learn to adapt and thrive."
+                  ]
+                },
+                "ʟᴀʀɢᴀʀɪᴄ\n\nLargaric is the month of good fortune. During this time you will happen upon better odds when exploring chests and during fishing.",
+                "ꜰᴇɴᴀʀɪᴄ\n\nFenaric is the month of weakness. During this month you will feel weaker and far more sluggish than normal. Some argue that his month is the worst of them all.",
+                "ᴍᴇɴᴛᴇʀɪᴄ\n\nMenteric is the month of prosperity. During this time, your crop harvests will yield slightly more than usual. Farmers often view this as a time of hope and renewal, preparing for the challenges ahead with the extra bounty.",
+                "ᴋɪɴᴊɪʀᴀ\n\nKinjira is the month of Hardship, a somber time when the land grows stubborn and unforgiving. During this month your plants and crops grow slowly and inconsistently.",
+                "ʟɪɴᴋᴏᴘᴛᴀ\n\nLinkopta is the month of strength and integrity, a time when the air feels charged with vitality and purpose. You will notice that you feel stronger and faster than usual.",
+                "ꜰᴀʏᴏᴍᴏɢ\n\nFayomog is the month of bad fortune. During this time you will run into problems uncovering very bad odds when exploring chests and fishing."
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
