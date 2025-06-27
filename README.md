@@ -8,6 +8,14 @@ Each month is 8 days long, based on the cycle of the moon.
 
 Every month has it's own omen. Omens can bring good fortune or cautionary tales, and each is unique to its month. Learn to adapt and thrive under their influence.
 
+### List of months:
+- Largaric is the month of good fortune. During this time you will happen upon better odds when exploring chests and during fishing.
+- Fenaric is the month of weakness. During this month you will feel weaker and far more sluggish than normal. Some argue that his month is the worst of them all.
+- Menteric is the month of prosperity. During this time, your crop harvests will yield slightly more than usual. Farmers often view this as a time of hope and renewal, preparing for the challenges ahead with the extra bounty.
+- Kinjira is the month of Hardship, a somber time when the land grows stubborn and unforgiving. During this month your plants and crops grow slowly and inconsistently.
+- Linkopta is the month of strength and integrity, a time when the air feels charged with vitality and purpose. You will notice that you feel stronger and faster than usual.
+- Fayomog is the month of bad fortune. During this time you will run into problems uncovering very bad odds when exploring chests and fishing.
+
 ![calendar](https://cdn.lunareclipse.studio/img/projects/lunaris/gallery/calendar.webp)
 
 ## **Installation**
